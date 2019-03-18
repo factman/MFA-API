@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "watch": true,
+    "esModuleInterop": true,
+    "paths": {
+      "*": [
+        "node_modules/*"
+      ]
+    },
+    "outDir": "./app",
+    "baseUrl": "src",
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "target": "es6",
+    "noImplicitAny": true,
+    "preserveConstEnums": true,
+    "alwaysStrict": false,
+    "strict": false,
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2016",
+      "dom"
+    ],
+    "module": "commonjs"
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
