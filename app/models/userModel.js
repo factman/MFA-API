@@ -15,7 +15,7 @@ const userSchema = new mongoose_1.Schema({
     question3: { type: String, default: "Your favorite color" },
     answer3: { type: String },
     otp: { type: String, default: "qwerty" },
-    fingerprint: { type: String, unique: true },
+    fingerprint: { type: String },
     createdAt: { type: Date, default: Date.now },
     updatedAt: { type: Date, default: Date.now },
 });
